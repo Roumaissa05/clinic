@@ -19,7 +19,8 @@ Modern responsive medical clinic website built using HTML, CSS and JavaScript.
 This project is frontend only and does not include backend functionality.
 
 ## Live Demo
-[clinicwep.netlify.app]
+[]clinicwep.netlify.app]
+
 
 ## Preview
 
