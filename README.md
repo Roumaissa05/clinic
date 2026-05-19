@@ -22,4 +22,6 @@ This project is frontend only and does not include backend functionality.
 [clinicwep.netlify.app]
 
 ## Preview
+
+![Website Preview](images/preview.png)
 (ضعي صورة هنا)
