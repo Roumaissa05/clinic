@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Al-Shifa Medical Clinic - Book appointments online with top specialists. Cardiology, Pediatrics, Dermatology and more." />
+  <meta name="keywords" content="medical clinic, doctor, appointment, booking, healthcare, cardiology, pediatrics" />
+  <meta name="author" content="Al-Shifa Clinic" />
+  <meta property="og:title" content="Al-Shifa Medical Clinic" />
+  <meta property="og:description" content="Book your appointment with the best doctors online." />
+  <meta property="og:type" content="website" />
+  <title>Al-Shifa Medical Clinic | Book Your Appointment</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <span data-i18n="brand">Al-Shifa Clinic</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" data-i18n="nav_home">Home</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#doctors" data-i18n="nav_doctors">Doctors</a>
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#booking" data-i18n="nav_booking">Booking</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="lang-btn" id="langToggle">العربية</button>
+        <button class="icon-btn menu-btn" id="menuToggle" aria-label="Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HOME / HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text reveal">
+        <span class="badge" data-i18n="hero_badge">Trusted Healthcare Since 1998</span>
+        <h1 data-i18n="hero_title">Your Health, Our Priority</h1>
+        <p data-i18n="hero_subtitle">Book appointments with certified specialists in cardiology, pediatrics, dermatology
+          and more — all in one place.</p>
+        <div class="hero-cta">
+          <a href="#booking" class="btn btn-primary" data-i18n="hero_book">Book Appointment</a>
+          <a href="#services" class="btn btn-outline" data-i18n="hero_services">Our Services</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>25+</strong><span data-i18n="stat_years">Years</span></div>
+          <div><strong>40+</strong><span data-i18n="stat_doctors">Doctors</span></div>
+          <div><strong>50k+</strong><span data-i18n="stat_patients">Patients</span></div>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80" alt="Doctor smiling" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 data-i18n="about_title">About Our Clinic</h2>
+        <p data-i18n="about_sub">Excellence in care, compassion in service.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-img reveal">
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80" alt="Modern clinic" />
+        </div>
+        <div class="about-text reveal">
+          <h3 data-i18n="about_h">Care You Can Trust</h3>
+          <p data-i18n="about_p">Al-Shifa Clinic combines advanced medical technology with a personal touch. Our team of
+            board-certified specialists is dedicated to providing comprehensive care for the whole family.</p>
+          <ul class="check-list">
+            <li><i class="fa-solid fa-circle-check"></i><span data-i18n="about_li1">Modern facilities & equipment</span>
+            </li>
+            <li><i class="fa-solid fa-circle-check"></i><span data-i18n="about_li2">Certified, experienced
+                specialists</span></li>
+            <li><i class="fa-solid fa-circle-check"></i><span data-i18n="about_li3">24/7 emergency support</span></li>
+            <li><i class="fa-solid fa-circle-check"></i><span data-i18n="about_li4">Affordable, transparent
+                pricing</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 data-i18n="services_title">Our Services</h2>
+        <p data-i18n="services_sub">Comprehensive healthcare under one roof.</p>
+      </div>
+      <div class="grid services-grid">
+        <div class="card reveal"><i class="fa-solid fa-heart-pulse svc-icon"></i>
+          <h3 data-i18n="svc1">Cardiology</h3>
+          <p data-i18n="svc1d">Heart screenings, ECG and expert cardiac care.</p>
+        </div>
+        <div class="card reveal"><i class="fa-solid fa-baby svc-icon"></i>
+          <h3 data-i18n="svc2">Pediatrics</h3>
+          <p data-i18n="svc2d">Compassionate care for infants and children.</p>
+        </div>
+        <div class="card reveal"><i class="fa-solid fa-tooth svc-icon"></i>
+          <h3 data-i18n="svc3">Dentistry</h3>
+          <p data-i18n="svc3d">Modern dental treatments and cosmetic care.</p>
+        </div>
+        <div class="card reveal"><i class="fa-solid fa-eye svc-icon"></i>
+          <h3 data-i18n="svc4">Ophthalmology</h3>
+          <p data-i18n="svc4d">Vision exams, lenses and eye surgery.</p>
+        </div>
+        <div class="card reveal"><i class="fa-solid fa-bone svc-icon"></i>
+          <h3 data-i18n="svc5">Orthopedics</h3>
+          <p data-i18n="svc5d">Joint, bone and sports injury treatment.</p>
+        </div>
+        <div class="card reveal"><i class="fa-solid fa-flask svc-icon"></i>
+          <h3 data-i18n="svc6">Lab & Imaging</h3>
+          <p data-i18n="svc6d">Blood tests, X-Ray, MRI and ultrasound.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTORS -->
+  <section id="doctors" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 data-i18n="doctors_title">Meet Our Doctors</h2>
+        <p data-i18n="doctors_sub">Skilled specialists committed to your wellbeing.</p>
+      </div>
+      <div class="grid doctors-grid">
+        <div class="doctor reveal">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&q=80"
+            alt="Dr. Abd_Erahim Ahmed" />
+          <h3>Dr. Abd_Erahim Ahmed</h3>
+          <p data-i18n="doc_cardio">Cardiologist</p>
+          <div class="socials"><a href="#"><i class="fa-brands fa-linkedin"></i></a><a href="#"><i
+                class="fa-brands fa-twitter"></i></a></div>
+        </div>
+        <div class="doctor reveal">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&q=80" alt="Dr. Romin che" />
+          <h3>Dr. Romin che</h3>
+          <p data-i18n="doc_pedia">Pediatrician</p>
+          <div class="socials"><a href="#"><i class="fa-brands fa-linkedin"></i></a><a href="#"><i
+                class="fa-brands fa-twitter"></i></a></div>
+        </div>
+        <div class="doctor reveal">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=500&q=80" alt="Dr. Mariam Hassan" />
+          <h3>Dr. Mariam Hassan</h3>
+          <p data-i18n="doc_derma">Dermatologist</p>
+          <div class="socials"><a href="#"><i class="fa-brands fa-linkedin"></i></a><a href="#"><i
+                class="fa-brands fa-twitter"></i></a></div>
+        </div>
+        <div class="doctor reveal">
+          <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=500&q=80" alt="Dr. Karim Ali" />
+          <h3>Dr. Karim Ali</h3>
+          <p data-i18n="doc_ortho">Orthopedic Surgeon</p>
+          <div class="socials"><a href="#"><i class="fa-brands fa-linkedin"></i></a><a href="#"><i
+                class="fa-brands fa-twitter"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking" class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 data-i18n="book_title">Book an Appointment</h2>
+        <p data-i18n="book_sub">Fill in the form and we'll confirm shortly.</p>
+      </div>
+      <form class="booking-form reveal" id="bookingForm" novalidate>
+        <div class="row">
+          <div class="field">
+            <label data-i18n="f_name">Full Name</label>
+            <input type="text" name="name" required />
+          </div>
+          <div class="field">
+            <label data-i18n="f_phone">Phone Number</label>
+            <input type="tel" name="phone" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label data-i18n="f_email">Email</label>
+            <input type="email" name="email" required />
+          </div>
+          <div class="field">
+            <label data-i18n="f_doctor">Select Doctor</label>
+            <select name="doctor" required>
+              <option value="" data-i18n="f_choose">-- Choose --</option>
+              <option>Dr. Abd_Erahim Ahmed — Cardiology</option>
+              <option>Dr. Romin che — Pediatrics</option>
+              <option>Dr. Mariam Hassan — Dermatology</option>
+              <option>Dr. Karim Ali — Orthopedics</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label data-i18n="f_date">Date</label>
+            <input type="date" name="date" required />
+          </div>
+          <div class="field">
+            <label data-i18n="f_time">Time</label>
+            <input type="time" name="time" required />
+          </div>
+        </div>
+        <div class="field">
+          <label data-i18n="f_notes">Notes</label>
+          <textarea name="notes" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" data-i18n="f_submit">Confirm Booking</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 data-i18n="contact_title">Contact Us</h2>
+        <p data-i18n="contact_sub">We'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div><i class="fa-solid fa-location-dot"></i><span data-i18n="c_addr">124 Health Street,
+              Algeria,Algeria</span></div>
+          <div><i class="fa-solid fa-phone"></i><span>+20 100 123 4567</span></div>
+          <div><i class="fa-solid fa-envelope"></i><span>info@alshifa-clinic.com</span></div>
+          <div><i class="fa-solid fa-clock"></i><span data-i18n="c_hours">Sat - Thu: 9:00 AM - 9:00 PM</span></div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <input type="text" placeholder="Name" data-i18n-ph="f_name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea rows="4" placeholder="Message" data-i18n-ph="c_msg" required></textarea>
+          <button class="btn btn-primary" data-i18n="c_send">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="logo"><i class="fa-solid fa-heart-pulse"></i> <span data-i18n="brand">Al-Shifa Clinic</span></h3>
+        <p data-i18n="footer_about">Compassionate care, modern medicine.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_links">Quick Links</h4>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#doctors" data-i18n="nav_doctors">Doctors</a>
+        <a href="#booking" data-i18n="nav_booking">Booking</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer_follow">Follow Us</h4>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© "2026 Al-Shifa Clinic  Devloper by Roumaissa". <span data-i18n="footer_rights">All rights reserved.</span></div>
+  </footer>
+
+  <!-- CONFIRMATION MODAL -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-content">
+      <i class="fa-solid fa-circle-check modal-icon"></i>
+      <h3 data-i18n="modal_title">Appointment Confirmed!</h3>
+      <p data-i18n="modal_text">Thank you. We've received your booking and will contact you shortly.</p>
+      <div id="modalDetails" class="modal-details"></div>
+      <button class="btn btn-primary" id="modalClose" data-i18n="modal_close">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
